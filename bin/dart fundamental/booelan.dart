@@ -9,8 +9,5 @@ void main(List<String> args) {
   
   if (true) {
     print('it true');
-  } else {
-    print('it false');
-    
   }
 }
