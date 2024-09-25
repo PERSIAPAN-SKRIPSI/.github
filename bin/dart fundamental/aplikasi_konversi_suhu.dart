@@ -15,6 +15,6 @@ void main(List<String> args) {
 
     print('suhu didalam celcius: ${celcius.toString()}');
   } else {
-    
+    print('Input tidak valid, harap masukkan angka.');
   }
 }
