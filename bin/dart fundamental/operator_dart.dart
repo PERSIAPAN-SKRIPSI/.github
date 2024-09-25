@@ -22,4 +22,12 @@ void main(List<String> args) {
   }
 
   //list perbandingan
+  List<int> numbers = [a,b,c];
+  numbers.sort();
+  print('sorted: $numbers'); // 10,10,20
+
+  // Mencari nilai maksimum dan minimum
+  int max = numbers.reduce((curr, next) => curr > next ? curr : next);
+  int min = numbers.reduce((curr, next) => curr < next ? curr : next);
+  print('Max: $max, Min: $min');
 }
