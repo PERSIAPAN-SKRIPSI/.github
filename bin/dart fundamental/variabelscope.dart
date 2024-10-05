@@ -37,7 +37,6 @@
       if (!discountApplied){
           if(price>= 100000){
             discount = 10/100 * price;
-            var discountApplied = true;
           }
       }
       return discount;
